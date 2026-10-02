@@ -44,8 +44,8 @@ const finalQuestion = [
 
 const cards = Array.from({ length: 8 }, (_, index) => index + 1)
 const progressSteps = 7
-const vslId = 'vid-6a73787882de34ab34578b50'
-const vslScript = 'https://scripts.converteai.net/b5ded6cc-b1ef-4908-af05-3fb942094dd7/players/6a73787882de34ab34578b50/v4/player.js'
+const vslId = 'vid-6abff25d965fbdd3549077a9'
+const vslScript = 'https://scripts.converteai.net/dc8ab8c0-f9ac-47c3-af12-a4174ba40c45/players/6abff25d965fbdd3549077a9/v4/player.js'
 const checkoutUrl = 'https://pay.cakto.com.br/u8edc5k_1041202'
 
 function ChoiceList({ choices, onChoose, compact = false }: { choices: string[]; onChoose: (answer: string) => void; compact?: boolean }) {
@@ -85,7 +85,7 @@ function VslPlayer() {
   return (
     <div className="vsl-frame">
       <vturb-smartplayer id={vslId} style={{ display: 'block', margin: '0 auto', width: '100%', maxWidth: '400px' } as CSSProperties}>
-        <div className="vsl-placeholder" />
+        <div className="vturb-player-placeholder" />
       </vturb-smartplayer>
     </div>
   )
