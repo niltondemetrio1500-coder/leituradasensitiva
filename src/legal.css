@@ -1,0 +1,20 @@
+.site-footer { position: relative; z-index: 2; width: 100%; padding: 26px 22px 30px; border-top: 1px solid rgba(245, 200, 0, .16); color: rgba(255,255,255,.62); background: rgba(12, 5, 28, .42); text-align: center; font-size: .72rem; line-height: 1.6; }
+.site-footer p { margin: 2px 0; }
+.site-footer strong { color: rgba(255,255,255,.82); font-weight: 700; }
+.site-footer a, .legal-copy a { color: #f5c800; text-decoration: underline; text-underline-offset: 3px; }
+.legal-links { display: flex; justify-content: center; align-items: center; gap: 9px; margin-top: 10px; }
+.legal-links a { font-weight: 700; }
+.legal-shell { min-height: 100dvh; }
+.legal-stage { position: relative; z-index: 1; width: 100%; display: flex; justify-content: center; padding: 45px 22px 34px; }
+.legal-card { width: min(100%, 760px); padding: 28px clamp(20px, 5vw, 48px) 38px; border: 1px solid rgba(245, 200, 0, .2); border-radius: 22px; background: linear-gradient(145deg, rgba(45, 25, 83, .94), rgba(24, 12, 50, .97)); box-shadow: 0 18px 50px rgba(0,0,0,.3); }
+.legal-back { display: inline-block; margin-bottom: 24px; color: rgba(255,255,255,.76); font-size: .82rem; text-decoration: none; }
+.legal-back:hover { color: #f5c800; }
+.legal-card .brand-mark { margin: 0 auto 13px; }
+.legal-card .ritual-label { text-align: center; }
+.legal-title { margin: 0; color: #f5c800; font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1.8rem, 5vw, 2.55rem); line-height: 1.15; text-align: center; text-shadow: 0 0 18px rgba(245,200,0,.25); }
+.legal-updated { margin: 9px 0 28px; color: rgba(255,255,255,.52); font-size: .78rem; text-align: center; }
+.legal-copy { color: rgba(255,255,255,.84); font-size: .94rem; line-height: 1.72; }
+.legal-copy p { margin: 0 0 18px; }
+.legal-copy h2 { margin: 28px 0 8px; color: #f5c800; font-family: 'Playfair Display', Georgia, serif; font-size: 1.2rem; line-height: 1.3; }
+.legal-copy h2:first-of-type { margin-top: 24px; }
+@media (max-width: 520px) { .site-footer { padding-left: 16px; padding-right: 16px; }.legal-stage { padding: 26px 14px 24px; }.legal-card { border-radius: 17px; padding: 22px 18px 30px; }.legal-copy { font-size: .9rem; line-height: 1.65; } }

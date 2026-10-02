@@ -24,6 +24,8 @@ Aplicação estática em React + TypeScript + Vite, sem servidor ou banco de dad
 - `src/App.tsx`: dados do questionário, máquina de estados e componentes de tela.
 - `src/styles.css`: tokens, responsividade, animações e acabamento visual.
 - `public/manus-routes.json`: manifesto da rota única.
+- `src/legal.tsx` e `src/legal.css`: rodapé empresarial e páginas navegáveis de Termos de Uso e Política de Privacidade.
+- `index.html`: Google Analytics `G-E6PSY8S4C5`.
 - `public/tarot_reader4.webp`: visual hero usado na referência.
 - `public/card1.png` a `public/card8.png`: versos das cartas.
 - `public/revealed1.png` a `public/revealed3.png`: faces reveladas na ordem da seleção.

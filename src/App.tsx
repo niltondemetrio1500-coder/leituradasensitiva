@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState, type CSSProperties } from 'react'
+import { LegalPage, SiteFooter } from './legal'
 
 type AnswerKey = 'q1' | 'q2' | 'q3' | 'q4' | 'q5' | 'q6'
 type Answers = Partial<Record<AnswerKey | 'name', string>>
@@ -151,6 +152,9 @@ function App() {
   const firstName = answers.name || 'Você'
   const progress = step > 0 && step <= progressSteps ? (step / progressSteps) * 100 : 0
 
+  if (window.location.pathname === '/termos-de-uso') return <LegalPage type="terms" />
+  if (window.location.pathname === '/politica-de-privacidade') return <LegalPage type="privacy" />
+
   return (
     <div className="app-shell">
       <div className="star-field" aria-hidden="true" />
@@ -249,6 +253,7 @@ function App() {
           )}
         </div>
       </main>
+      <SiteFooter />
     </div>
   )
 }

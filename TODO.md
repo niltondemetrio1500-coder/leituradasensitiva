@@ -8,3 +8,6 @@
 - [x] Página de vídeo VSL com reprodução e comportamento de exibição equivalentes aos da referência.
 - [x] CTA final reproduzindo a oferta, textos, botões e direcionamento definidos no funil de referência.
 - [x] Experiência responsiva para celular e desktop, mantendo o design, ritmo, animações e navegação do site de referência.
+- [x] Rodapé com copyright 2026, razão social, CNPJ clicável, endereço e links para Termos de Uso e Política de Privacidade.
+- [x] Páginas navegáveis de Termos de Uso e Política de Privacidade em rotas próprias.
+- [x] Google Analytics configurado com o ID de medição G-E6PSY8S4C5.
