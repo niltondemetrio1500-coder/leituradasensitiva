@@ -46,7 +46,7 @@ const cards = Array.from({ length: 8 }, (_, index) => index + 1)
 const progressSteps = 7
 const vslId = 'vid-6abff25d965fbdd3549077a9'
 const vslScript = 'https://scripts.converteai.net/dc8ab8c0-f9ac-47c3-af12-a4174ba40c45/players/6abff25d965fbdd3549077a9/v4/player.js'
-const checkoutUrl = 'https://pay.cakto.com.br/u8edc5k_1041202'
+const checkoutUrl = 'https://pay.wiapy.com/W4QpMjjGem7t'
 
 function ChoiceList({ choices, onChoose, compact = false }: { choices: string[]; onChoose: (answer: string) => void; compact?: boolean }) {
   return (
